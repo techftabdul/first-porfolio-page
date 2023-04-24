@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" /> 
+    <title>Portfolio Page</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar" class="nav">
+        <ul id="nav-list">
+        <li><a href="#welcome-section">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="welcome-section">
+      <h1>Hey guys, I am Abdul</h1>
+      <h3>a self taught web devloper.</h3>
+      <h4>welcome to my first personal  portfolio page</h4>
+    </section>
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-heading">These are some of my projects</h2>
+      <div class="projects-grid">
+        <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" id="profile-link" target="_blank" class="project-tile" >
+        <img
+        class="project-image"
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+        alt="project"
+      />
+      <p class="project-title">Tribute Page</p>
+
+        <a href="file:///C:/Users/cyber/OneDrive/Documents/Camper%20Menu.html" id="profile-link" target="_blank" class="project-tile">
+        <img
+        class="project-image"
+        src="https://lh4.googleusercontent.com/HQlcT6jCqNurt-bv-v2h96nnD7oAi0li2JCNBdsGLQqKOLl4AA0-ekTWArdc568Tne4=w2400"
+        alt="project"
+      />
+      <p class="project-title">Cafe Menu</p>
+
+      <a href="file:///C:/Users/cyber/OneDrive/Documents/SurveyForm.html" id="profile-link" target="_blank" class="project-tile">
+        <img
+        class="project-image"
+        src="https://lh4.googleusercontent.com/WKwWdaWeO0eBWcLVyzfR641QkIdTZUuRQ44Uz1ayx8184M-sVAfgan1WndVbQEXss2s=w2400"
+        alt="project"
+      />
+      <p class="project-title">Survey Form</p>
+
+      <a href="file:///C:/Users/cyber/OneDrive/Documents/TechnicalDocumentation.html" id="profile-link" target="_blank" class="project-tile">
+        <img
+        class="project-image"
+        src="https://lh6.googleusercontent.com/ku7D-2tGADEdEZw4fC1geKb5NnW5fgpFNfe6ws-lrz1h0_IP72e4k9o-7DqlKbz5o4k=w2400"
+        alt="project"
+      />
+      <p class="project-title">Technical Document Page</p>
+
+      <a href="file:///C:/Users/cyber/OneDrive/Documents/KnowledgeConstruction.html" id="profile-link" target="_blank" class="project-tile">
+        <img
+        class="project-image"
+        src="https://lh4.googleusercontent.com/RDhXo8z1FCzgIwLbGpgIZHIZ7TGz2Py7-LdlRHp4i4D0SEDMSydshRcje-s40A68l84=w2400"
+        alt="project"
+      />
+      <p class="project-title">Real Estate Landing Page</p>
+        
+        <a href="file:///C:/Users/cyber/OneDrive/Documents/Magazine.html" id="profile-link" target="_blank" class="project-tile">
+        <img
+        class="project-image"
+        src="https://lh3.googleusercontent.com/F0QdPLsPIW7h4DlCvgO_bLPfv_teJGbz3eHiCAo07f-nAQ9eyDbGdqWMMnbUWO7XuiE=w2400"
+        alt="project"
+      />
+      <p class="project-title">Magazine Page</p>
+
+      <a href="https://codepen.io/techftabdul" target="_blank">
+
+      </div>
+    </section>
+    <section id="contacts">
+      <div id="contact-heading">
+      <h1>Let's work together...</h1>
+      <h3><i>How can I help you ?...</i></h3>
+      </div>
+      <div class="contact-links">
+        <a href="https://twitter.com/techftabdul" target="_blank" class="btn contact-details"><i class="fab fa-twitter"></i>Twitter</a>
+        <a id="profile-link" href="https://github.com/techftabdul" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+        <a href="mailto:example@example.com" target="_blank" class="btn contact-details"><i class="fas fa-at"></i>Send a mail</a>
+        <a href="tel:0802-713-6611" class="btn contact-details"><i class="fas fa-mobile-alt"></i>Call me</a>
+      </div>
+    </section>
+    
+    <section id="footer">
+      <p>**All projects are developed by Me</p>
+      <p>AbdulTech</p>
+      <p>08027136611</p>
+    </section>
+  </body>
+</html>
+<style>
+    :root {
+  --main-white: white;
+  --main-red: #be3144;
+  --main-blue: purple;
+  --main-orange: #303841;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*, *::before,
+*::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+  font-size: 20px;
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 65%;
+  }
+}
+a {
+  text-decoration: none;
+  color: var(--main-white);
+  font-size: 2.5rem;
+}
+ul {
+  list-style: none;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  left: 0;
+  background: var(--main-red);
+  z-index: 10;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+body {
+  color: var(--main-white);
+  font-family: verdana, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.8;
+  
+}
+nav > li {
+  list-style: none;
+}
+#nav-list{
+  display: flex;
+  margin-right: 2em;
+  
+}
+#nav-list a:hover{
+  background: var(--main-blue);
+}
+#nav-list a {
+  display: block;
+  padding: 2rem;
+  font-size: 2.0rem
+}
+@media (max-width: 480px) {
+  .nav {
+    justify-content: center;
+  }
+  #nav-list {
+    margin: 0 1rem;
+  }
+}
+header {
+  background-color: var(--main-red);
+  height: 50px;
+  
+}
+#welcome-section {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--main-orange);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1, h3, h4 {
+  font-family: verdana;
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+}
+#projects {
+ 
+  background-color: var(--main-blue);
+}
+#contacts {
+  background-color: var(--main-red);
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+#footer {
+  width: 100%;
+  background-color: var(--main-orange);
+  color: white;
+  font-family: verdana;
+  text-align: center;
+}
+.projects-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  width: 100%;
+  grid-gap: 4rem;
+  margin-bottom: 6rem;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+@media (max-width: 30.625em) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .project-section {
+    padding: 6rem 1rem;
+  }
+}
+.projects-section{
+  text-align: center;
+  padding: 10em 2em;
+  
+}
+.projects-section-heading {
+  max-width: 1000px;
+  margin: 0 auto 5rem auto;
+  border-bottom: 1px solid white
+}
+@media (max-width: 680px) {
+  .projects-section-heading {
+    font-size: 3.5rem
+  }
+}
+.project-image {
+  object-fit: cover;
+  width: 100%;
+  height: calc(100% - 6.8rem);
+}
+h2 {
+  font-size: 4.5rem;
+  color: white;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.project-title {
+  font-size: 2rem;
+  font-style: italic;
+  padding: 2rem 0.5rem;
+}
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-top: 5px solid var(--main-white);
+  padding: 2rem;
+  font-weight: 400;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  max-width: 980px;
+}
+#contact-heading > h3 {
+  font-size: 1rem;
+}
+.contact-details {
+  font-size: 2.0rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+</style>
+
+
